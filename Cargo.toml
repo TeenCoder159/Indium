@@ -1,0 +1,15 @@
+[package]
+name = "Indium"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+iced = { version = "0.13.1", features = ["image"] }
+souvlaki = "0.8.1"
+enigo = "0.3.0"
+
+[package.metadata.bundle]
+name = "Indium"
+identifier = "com.teencoder159.Indium"
+icon = ["128x128.png"]
+resources = ["128x128.png"]
